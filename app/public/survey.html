@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Friend Finder</title>
+		<!-- Latest compiled and minified CSS & JS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class = "container">
+			<div class="jumbotron">
+				<h1> Friend Finder</h1>
+				<a href="home.html"><button type="button" class="btn btn-lg btn" id="homeButton" ><span class="glyphicon glyphicon-home"></span></button></a>
+			</div>
+			<div class="panel panel-default" id="questions">
+			<div class="panel-heading"id="heading">Survey Questions:</div>
+				<div class= "panel-body" id="questions">
+					<p><br>Your Name: <input type="text" class="form-control" placeholder="Name">
+					</p>
+					<p class="question">You often spend time exploring unrealistic and impractical yet intriguing ideas.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">Logic is usually more important than heart when it comes to making important decisions.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">Your mood can change very quickly.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">You like dogs.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">An interesting book or a video game is often better than a social event.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">Your travel plans are usually well thought out.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">You worry too much about what other people think.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">You feel more energetic after spending time with a group of people.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">You frequently misplace your things.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+
+					<p class="question">Being right is more important than being cooperative when it comes to teamwork.</p>
+					<ul class="answers">
+						<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> 1- Stongly Disagree</label><br/>
+						<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> 2- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> 3- Neutral</label><br/>
+						<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> 4- Somewhat Agree</label><br/>
+						<input type="radio" name="q1" value="e" id="q1d"><label for="q1d"> 5- Strongly Agree</label><br/>
+					</ul>
+				</div>
+				<a href="submit.html"><button type="button"class="btn btn-lg btn" id="submitButton">Submit</button></a>
+			</div>
+		</div>
+	</body>
+
+	</html>
