@@ -18,4 +18,4 @@ var friendsArray = [
 ]
 
 
-module.exports = friendArray;
+module.exports = friendsArray;
